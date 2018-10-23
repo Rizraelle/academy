@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  position: relative;
+}
+
+* > a {
+  color: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  width: 100%;
+  min-height: 500px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.button {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  letter-spacing: 0.5px;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 40px;
+  box-sizing: border-box;
+  display: inline-flex;
+  font-weight: 500;
+  justify-content: center;
+  height: 60px;
+  width: 260px;
+  padding: 19px 48px;
+}
+
+.button-purple {
+  background-color: #8824cd;
+}
+
+.button-white {
+  background-color: #fff;
+  color: #d54c63;
+}
+
+.logo span {
+  font-size: 12px;
+}
+
+.section-first {
+  background: url(../img/star_mountain.jpg) no-repeat center/cover;
+}
+
+.section-second {
+  background: #2e3b4e no-repeat center/cover;
+}
+
+.section-third {
+  background: url(../img/pink_forest.jpg) no-repeat center/cover;
+}
+
+.p-big {
+  font-size: 20px;
+}
+
+.p-normal {
+  font-size: 18px;
+}
+
+.p-small {
+  font-size: 16px;
+}
+
+.text-block {
+  max-width: 360px;
+  min-width: 260px;
+  padding: 10px;
+}

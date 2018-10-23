@@ -1,0 +1,36 @@
+{
+  "name": "academy",
+  "version": "1.0.0",
+  "description": "Simple template for website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizraelle/academy.git"
+  },
+  "keywords": [
+    "academy"
+  ],
+  "author": "Rizraelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizraelle/academy/issues"
+  },
+  "homepage": "https://github.com/Rizraelle/academy#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-build-html": "^1.0.12",
+    "gulp-postcss": "^8.0.0",
+    "gulp-stylelint": "^7.0.0",
+    "postcss-extend": "^1.0.5",
+    "stylelint": "^9.6.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "dependencies": {
+    "postcss-browser-reporter": "^0.5.0"
+  }
+}
