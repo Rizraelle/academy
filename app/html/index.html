@@ -1,183 +1,230 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="utf-8">
-        <title>Pex simple template</title>
-        <link rel="stylesheet" href="css/normalize-min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
-    </head>
-    <body>
-        <header class="header">
-            <div class="header-container container">
-                <a href="" title="" class="logo">
-                    <img src="img/logo.png" title="Pex Photoshop Website Template" alt="Pex Logo Image">
-                    <span>
-                        Photoshop Website Template
-                    </span>
-                </a>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pex simple template</title>
+  <link rel="stylesheet" href="css/normalize-min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body class="main-body">
+  <header class="header">
+    <div class="header-container container">
+      <div class="logo">
+        <img src="img/logo.png" title="Pex Photoshop Website Template" alt="Pex Logo Image">
+        <span>
+          Photoshop Website Template
+        </span>
+        <a href="#" title="Pex"></a>
+      </div>
+      </a>
+      <a class="gamburger js-gamburger js-run-event" title="Меню" tabindex="0" role="button" id="gamburger-nav">
+        <div class="gamburger__line">
+        </div>
+      </a>
+      <div class="header-wrapper">
+        <nav class="header-navigation">
+          <ul class="header-navigation-wrapper">
+            <li class="header-navigation-item active">
+              <a href="" >About
+              </a>
+            </li>
+            <li class="header-navigation-item">
+              <a href="" >How It Works
+              </a>
+            </li>
+            <li class="header-navigation-item">
+              <a href="" >Services
+              </a>
+            </li>
+            <li class="header-navigation-item">
+              <a href="" >FAQ
+              </a>
+            </li>
+            <li class="header-navigation-item">
+              <a href="" >Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-search">
+          <form>
+            <label for="search_input" hidden="" class="">ПОИСК</label>
+            <input id="search_input" type="text" placeholder="Search Website" aria-label="Поиск" class="search_input">
+            <input id="search_submit" value="Researcher" type="submit" aria-label="Поиск">
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section section-main">
+    <div class="container container-padded">
+      <div class="wrapper flex-start main-content">
+        <h1 class="h1">
+          Designs your eyeballs<br> will thank you for
+        </h1>
+        <button class="button button-default button-purple text-bold align-self-end">
+          Get Started Today
+        </button>
+        <p class="p-small">
+          Lorem ipsum dolor sit amet
+        </p>
+      </div>
+    </section>
+    <section class="section section-darkblue">
+      <div class="container container-padded">
+        <div class="wrapper flex-around">
+          <div class="text-block">
+            <h4 class="h4 text-uppercase">
+              A fantastic heading
+            </h4>
+            <p class="p-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            </p>
+          </div>
+          <div class="text-block">
+            <h4 class="h43 text-uppercase">
+              Good day blokes
+            </h4>
+            <p class="p-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            </p>
+          </div>
+          <div class="text-block">
+            <h4 class="h4 text-uppercase">
+              Blaz robar for the president
+            </h4>
+            <p class="p-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            </p>
+          </div>
+          <div class="text-block">
+            <h4 class="h4 text-uppercase">
+              Vote for robar
+            </h4>
+            <p class="p-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-decoration-figure">
+      </div>
+    </section>
+    <section class="section section-pinkforest">
+      <div class="container container-padded">
+        <div class="wrapper flex-center">
+          <div class="block">
+            <h2 class="h2 text-center">
+              Wicked & whack, bang bang boo!
+            </h2>
+            <p class="p-normal text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut
+            </p>
+            <button class="button button-default button-white text-bold">
+              Get started today
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-white">
+      <div class="wrapper flex-between flex-column">
+        <div class="section-image image-handwriting" title="A heading is what you need here!"></div>
+        <div class="block block-padded">
+          <h2 class="h2">
+            A heading is what you need here!
+          </h2>
+          <p class="p-big">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="p-small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section section-forest">
+      <div class="container container-padded">
+        <div class="wrapper flex-center">
+          <div class="block block-big">
+            <h2 class="h2">
+              Experience the rush today
+            </h2>
+            <p class="p-normal text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <button class="button button-default button-purple">
+              Get started today
+            </button>
+            <p class="p-small">
+              Lorem ipsum dolor sit amet
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-decoration-rectangle">
+      </div>
+    </section>
+    <section class="section section-white">
+      <div class="wrapper flex-between flex-column">
+        <div class="block block-padded">
+          <h2 class="h2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </h2>
+          <p class="p-big">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="p-small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="section-image image-watch" title="A heading is what you need here!"></div>
+      </div>
+    </section>
+    <section class="section section-pink">
+      <div class="container container-padded">
+        <div class="wrapper flex-start justify-content-start">
+          <div class="block flex-start justify-content-start">
+            <h2 class="h2 text-uppercase text-align">
+              Get in touch
+            </h2>
+            <p class="p-normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.
+              <a href="" class="simple-link">help@yomuma.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section section-darkblue">
+      <div class="container container-padded">
+        <div class="wrapper flex-start justify-content-start">
+          <p class="p-normal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua
+          </p>
+        </div>
+      </div>
+    </footersection>
+  </body>
 
-                <nav class="header-navigation">
-                    <ul class="header-navigation-wrapper">
-                        <li class="header-navigation-item">
-                            About
-                        </li>
-                        <li class="header-navigation-item">
-                            How It Works
-                        </li>
-                        <li class="header-navigation-item">
-                            Services
-                        </li>
-                        <li class="header-navigation-item">
-                            FAQ
-                        </li>
-                        <li class="header-navigation-item">
-                            Contact
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header-search">
-                    <form>
-                        <label for="search_input" hidden="">ПОИСК</label>
-                        <input id="search_input" type="text" placeholder="Search Website" aria-label="Поиск" class="search_input">
-                        <input id="search_submit" value="Researcher" type="submit" aria-label="Поиск">
-                    </form>
-                </div>
-            </div>
-        </header>
-
-        <section class="section section-first">
-            <div class="wrapper flex-start">
-                <h1 class="h1">
-                    Designs your eyeballs <br> will thank you for
-                </h1>
-                <button class="button button-default button-purple">
-                    Get Started Today
-                </button>
-                <p class="p-small">
-                    Lorem ipsum dolor sit amet
-                </p>
-            </div>
-        </section>
-
-        <section class="section section-second">
-            <div class="container">
-                <div class="wrapper flex-around">
-                    <div class="text-block">
-                        <h3 class="h3">
-                            A fantastic heading
-                        </h3>
-                        <p class="p-small">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-                        </p>
-                    </div>
-                    <div class="text-block">
-                        <h3 class="h3">
-                            Good day blokes
-                        </h3>
-                        <p class="p-small">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-                        </p>
-                    </div>
-                    <div class="text-block">
-                        <h3 class="h3">
-                            Blaz robar for the president
-                        </h3>
-                        <p class="p-small">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-                        </p>
-                    </div>
-                    <div class="text-block">
-                        <h3 class="h3">
-                            Vote for robar
-                        </h3>
-                        <p class="p-small">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="section-decoration">
-
-            </div>
-        </section>
-        <section class="section">
-            <div class="wrapper flex-center">
-                <div class="block">
-                    <h2 class="h2">
-                        Wicked & whack, bang bang boo!
-                    </h2>
-                    <p class="p-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <button class="button button-default button-white">
-                        Get started today
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="wrapper flex-center">
-                <div class="block">
-                    <img src="" title="A heading is what you need here!" alt="Photo of handwriting">
-                </div>
-                <div class="block">
-                    <h3 class="h3">
-                        A heading is what you need here!
-                    </h3>
-                    <p class="p-big">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="p-small">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="wrapper flex-center">
-                <div class="block">
-                    <h2 class="h2">
-                        Experience the rush today
-                    </h2>
-                    <p class="p-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <button class="button button-default button-purple">
-                        Get started today
-                    </button>
-                    <p class="p-small">
-                        Lorem ipsum dolor sit amet
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="wrapper flex-center">
-                <div class="block">
-                    <h2 class="h2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </h2>
-                    <p class="p-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-
-                </div>
-            </div>
-        </section>
-    </body>
+  <script src="../js/main.js"></script>
 </html>
