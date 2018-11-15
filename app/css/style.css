@@ -49,6 +49,10 @@ ul {
   line-height: 70px;
 }
 
+.h2 {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .h1 {
     font-size: 40px;
@@ -73,6 +77,12 @@ ul {
 
 .container-padded {
   padding: 50px;
+}
+
+@media (max-width: 1000px) {
+  .container-padded {
+    padding: 40px;
+  }
 }
 
 .wrapper {
@@ -135,10 +145,6 @@ ul {
     align-items: center;
     justify-content: center;
   }
-}
-
-.align-self-end {
-  align-self: flex-end;
 }
 
 .align-self-start {
@@ -209,6 +215,15 @@ ul {
   height: 100px;
 }
 
+@media (max-width: 1000px) {
+  .header {
+    width: 100%;
+    background: url(../img/star_mountain.jpg) no-repeat top;
+    position: fixed;
+    z-index: 5;
+  }
+}
+
 .header-wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -219,8 +234,11 @@ ul {
 
 .header-wrapper.active {
   display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 70px;
+  background: url(../img/star_mountain.jpg) no-repeat top;
+  min-height: fit-content;
+  top: 100px;
   right: 0;
   left: 0;
   padding: 10px;
@@ -233,6 +251,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  z-index: 2;
 }
 
 .logo {
@@ -262,10 +281,19 @@ ul {
 .main-content {
   max-width: 500px;
   text-align: right;
+  align-items: flex-end;
+}
+
+@media (max-width: 1000px) {
+  .main-content {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 }
 
 .header-navigation-wrapper {
-  height: 100px;
+  min-height: 100px;
 }
 
 .header-navigation-item {
@@ -293,6 +321,15 @@ ul {
 
 .header-navigation-item.active {
   border-bottom: 4px solid #fff;
+}
+
+.header-wrapper.active .header-navigation-wrapper {
+  text-align: center;
+  padding: 0;
+}
+
+.header-wrapper.active .header-search {
+  margin: 20px;
 }
 
 /*
@@ -354,7 +391,7 @@ HAMBURGER
   top: 50%;
 }
 
-.hamburger.active .hamburger__line {
+.hamburger.active .hamburger-line {
   opacity: 0;
 }
 
@@ -457,7 +494,7 @@ HAMBURGER
 .section-decoration-rectangle {
   position: absolute;
   width: 100%;
-  top: 70px;
+  top: 60px;
   bottom: 0;
   background-color: rgba(82, 26, 102, 0.75);
 }
